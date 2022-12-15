@@ -103,7 +103,7 @@ a{
   padding-top: 13px;
   padding-bottom: 13px;
   background-color: var(--main-bg-color);
-  
+  backdrop-filter: blur(10px);
 }
 
 .site-header-start-wrapper {
@@ -146,6 +146,15 @@ a{
   margin-bottom: 0;
 }
 
+.site-header-address-call-link:hover{
+  color: var(--main-active-color);
+}
+
+.site-header-address-call-link:active{
+  color: var(--main-active-color);
+  opacity: 0.6;
+}
+
 .site-header-date-box{
   display: flex;
   align-items: center;
@@ -167,7 +176,8 @@ a{
 
 .site-header-end {
   position: relative;
-  background-color: var(--header-bg-color);
+  background-color: rgba(255, 255, 255, 0.644);
+  backdrop-filter: blur(10px);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -193,6 +203,14 @@ a{
   top: -37px;
 }
 
+.site-header-end-logo:hover{
+  opacity: 0.8;
+}
+
+.site-header-end-logo:active{
+  opacity: 0.6;
+}
+
 .site-header-end-list {
   display: flex;
   align-items: center;
@@ -206,8 +224,26 @@ a{
   color: var(--main-text-color);
 }
 
+.site-header-end-item-link:hover{
+  background-image: linear-gradient( #fff, #fff,  #F4FFAD, #fff );
+}
+
+.site-header-end-item-link:active{
+  background-image: linear-gradient( #fff, #fff,  #F4FFAD, #fff );
+  opacity: 0.5;
+}
+
 .site-header-end-question {
   display: flex;
+  cursor: pointer;
+}
+
+.site-header-end-question:active{
+  opacity: 0.5;
+}
+
+.site-header-end-question:hover .site-header-end-question-title {
+  background-image: linear-gradient( #fff, #fff,  #F4FFAD, #fff );
 }
 
 .site-header-end-question-img {
@@ -222,7 +258,146 @@ a{
   color: var(--main-text-color);
 }
 
-
 /* ******* SITE HEADER STYLE END ****** */
 
+/* ***** SITE MAIN START **** */
+/* ****** HERO SECTION START ***** */
+.site-main {
+  background-color: var(--main-bg-color);
+}
+.hero-section {
+  padding-top: 153px;
+  padding-bottom: 311px;
+  background-image: url(../images/hero-start-bg.png), url(../images/hero-end-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 490px) calc(50% - 140px), calc(50% + 680px) calc(50% + 140px);
+}
 
+
+.hero-section-start {
+  width: 100%;
+  max-width: 608px;
+  margin-left: auto;
+}
+.hero-section-title {
+  width: 100%;
+  max-width: 608px;
+  margin-top: 0;  
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--main-text-color);
+}
+
+.hero-section-title-span{
+  color: #78C0DE;
+}
+.hero-section-subtitle {
+  margin-top: 0;
+  margin-bottom: 38px;
+  width: 100%;
+  max-width: 495px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--main-desc-color);
+}
+.hero-section-btn {
+  padding: 16px 48px;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--header-bg-color);
+  background-color: var(--main-text-color);
+  border-radius: 3px;
+}
+
+.hero-section-btn:hover{
+  background: #333333cc;
+}
+
+.hero-section-btn:active{
+  background: #33333399;
+}
+/* ****** HERO SECTION END ***** */
+
+/* ******* VETERINAR SECTION START ***** */
+.veterinar-section {
+  padding-bottom: 191px;
+}
+
+.veterinar-section-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.veterinar-section-wrapper::before{
+  position: absolute;
+  left: 190px;
+  top: 10px;
+  content: "";
+  display: block;
+  width: 142px;
+  height: 128px;
+  background-image: url(../images/veterinar-left-img.svg);
+  background-repeat: no-repeat;
+}
+
+.veterinar-section-wrapper::after{
+  position: absolute;
+  right: 120px;
+  top: 10px;
+  content: "";
+  display: block;
+  width: 142px;
+  height: 128px;
+  background-image: url(../images/veterinar-right-img.svg);
+  background-repeat: no-repeat;
+}
+
+.veterinar-section-title {
+  width: 100%;
+  max-width: 753px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--main-desc-color);
+}
+.veterinar-section-title::before{
+  content: "";
+  display: block;
+  width: 140px;
+  height: 1px;
+  background-color:  #DBDBDB;
+  margin: auto;
+  margin-bottom: 43px;
+}
+
+.veterinar-section-title::after{
+  content: "";
+  display: block;
+  width: 140px;
+  height: 1px;
+  background-color:  #DBDBDB;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.veterinar-section-desc {
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--main-text-color);
+}
+/* ******* VETERINAR SECTION END ***** */
+
+/* ***** OUR SERVICES START **** */
+
+/* ***** OUR SERVICES END **** */
+/* ***** SITE MAIN END **** */
