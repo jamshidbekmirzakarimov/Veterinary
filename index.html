@@ -178,24 +178,107 @@
         <!-- NEWS SECTION START -->
         <section class="news-section">
           <div class="container">
-          <div class="news-section-content">
-            <div class="news-section-start">
-            <h2 class="news-section-title">Будь в курсе событий</h2>
-            <form action="https://echo.htmlacademy.ru/" method="get">
-              <label for="email">
-                <input class="input-email" type="email" name="email" required aria-label="emailingizni kiriting brat" placeholder="Укажите Ваш email адрес" maxlength="100" minlength="2">
-              </label>
-              <button class="new-input-btn" role="submit">Подписаться</button>
-            </form>
+            <div class="news-section-wrapper">
+              <div class="news-section-start">
+                <h2 class="news-section-title">Будь в курсе событий</h2>
+                <form action="https://echo.htmlacademy.ru/" method="get">
+                  <label for="email">
+                    <input class="input-email" type="email" name="email" required aria-label="emailingizni kiriting brat" placeholder="Укажите Ваш email адрес" maxlength="100" minlength="2" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                  </label>
+                  <button class="new-input-btn" type="submit">Подписаться</button>
+                </form>
+              </div>
+              <img class="news-section-img" src="./images/dog.png" alt="dog" 
+              width="613" height="481">
+            </div>
           </div>
-          <img class="news-section-img" src="./images/dog.png" alt="dog" 
-          width="613" height="481">
-          </div>
-        </div>
         </section>
         <!-- NEWS SECTION END -->
         
-      </main>
-      <!-- SITE MAIN END -->
-    </body>
-    </html>
+        <!-- USEFUL SECTION START -->
+        <section class="useful-section">
+          <div class="container">
+            <h2 class="useful-section-title">Полезные статьи</h2>
+            <ul class="useful-section-list">
+              <li class="useful-section-item-tooth">
+                <img class="useful-section-item-tooth-img" src="./images/pishak.jpg" alt="pishak" width="305" height="180">
+                <div class="useful-section-item-tooth-box">
+                  <p class="useful-section-item-tooth-date"> <time datetime="2008-02-14 20:00">28.08.2020</time></p>
+                  <h3 class="useful-section-item-tooth-title">Ультразвуковая чистка зубов</h3>
+                  <p class="useful-section-item-tooth-subtitle">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                  <div class="site-header-end-question">
+                    <img class="site-header-end-question-img" src="./images/question.svg" alt="site-header-end-question-img" width="23" height="20">
+                    <p class="site-header-end-question-title">Читать больше</p>
+                  </div>
+                </div>
+              </li>
+              
+              <li class="useful-section-item-middle">
+                <img class="useful-section-item-puppy" src="./images/puppys.jpg" alt="puppys" width="305" height="435">
+                <div class="useful-section-item-middle-box">
+                  <div class="useful-section-item-middle-wrapper">
+                    <div class="useful-section-item-middle-top">
+                      <a class="useful-section-item-middle-top-link" href="#">#собака</a>
+                      <a class="useful-section-item-middle-top-link" href="#">#дом</a>
+                      <a class="useful-section-item-middle-top-link" href="#">#уход</a>
+                    </div>
+                    <p class="useful-section-item-middle-top-link-date"><time datetime="2008-02-14 20:00">29.08.2020</time></p>
+                  </div>
+                  <h3 class="useful-section-item-middle-top-title">Перед тем как завести собаку</h3>
+                  <p class="useful-section-item-middle-top-subtitle">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.</p>
+                  <div class="site-header-end-question">
+                    <img class="site-header-end-question-img" src="./images/question.svg" alt="site-header-end-question-img" width="23" height="20">
+                    <p class="site-header-end-question-title">Читать больше</p>
+                  </div>
+                </div>
+              </li>
+              
+              <li class="useful-section-item-tooth">
+                <img class="useful-section-item-tooth-img" 
+                src="./images/vaccination.jpg" alt="" width="305" height="180">
+                <div class="useful-section-item-tooth-box">
+                  <p class="useful-section-item-tooth-date"> <time datetime="2008-02-14 20:00">21.07.2020</time></p>
+                  <h3 class="useful-section-item-tooth-title">
+                    Когда привавать питомца?</h3>
+                    <p class="useful-section-item-tooth-subtitle">
+                      Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                      <div class="site-header-end-question">
+                        <img class="site-header-end-question-img" src="./images/question.svg" alt="site-header-end-question-img" width="23" height="20">
+                        <p class="site-header-end-question-title">Читать больше</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- USEFUL SECTION END -->
+
+            <!-- MAP SECTION START -->
+            <section class="map-section">
+                <div class="map-section-wrapper">
+                <div class="yandex-map" style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ташкент</a><a href="https://yandex.uz/maps/geo/1494656380/?l=pht&ll=71.440270%2C40.491588&utm_medium=mapframe&utm_source=maps&z=10" style="color:#eee;font-size:12px;position:absolute;top:14px;">Алтыарыкский район — Яндекс Карты</a><iframe class="iframe" src="https://yandex.uz/map-widget/v1/-/CCUnFFSMhD" width="462" style="position:relative;"></iframe></div>
+                <div class="map-section-end">
+                  <h2 class="map-section-end-title">
+                    Обратная связь
+                  </h2>
+                  <p class="map-section-end-subtitle">
+                    При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+                    <form action="https://echo.htmlacademy.ru/" method="get">
+                      <div class="input-box">
+                      <input class="input-name input-map" name="name" type="text" required aria-label="ismingizni kiriting, misol uchun Teshvoy" placeholder="Ваше имя" minlength="2" maxlength="100">
+
+                      <input class="map-input-email input-map" name="email" type="text" required aria-label="emailingizni kiriting, misol uchun teshvoyketmonov0202@gmail.com" placeholder="Email для обратной связи" minlength="2" maxlength="100" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                      <textarea class="map-section-textarea input-map" name="comment" placeholder="Опишите Ваш вопрос." aria-label="commit qoldiring"></textarea>
+                      <button class="map-section-btn" type="submit">Задать нам вопрос</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            </section>
+            <!-- MAP SECTION END -->
+
+
+          </main>
+          <!-- SITE MAIN END -->
+        </body>
+        </html>
