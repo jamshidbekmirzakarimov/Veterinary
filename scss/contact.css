@@ -411,7 +411,6 @@ img {
 
 .contact-hero-section {
   padding-top: 198px;
-  padding-bottom: 503px;
   background-image: url(../../images/doctor-dog.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 500px) calc(50% + 100px);
@@ -484,13 +483,30 @@ img {
 }
 
 .search-section {
+  padding-top: 381px;
   padding-bottom: 206px;
+  background-image: url(../../images/search-section-sbg.svg), url(../../images/search-section-img.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 150px) calc(50% - 300px), calc(50% - 400px) calc(50% - 250px);
 }
 .search-section__wrapper {
+  height: 466px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .search-section__karta {
-  width: 600px;
+  width: 847px;
   height: 466px;
   border: none;
+}
+
+.search-section__title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #333;
 }/*# sourceMappingURL=contact.css.map */
