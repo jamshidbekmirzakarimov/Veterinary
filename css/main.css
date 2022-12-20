@@ -87,7 +87,6 @@ img {
   position: fixed;
   top: 0;
   z-index: 99;
-  backdrop-filter: blur(10px);
 }
 
 ul,
@@ -179,8 +178,7 @@ a {
 
 .site-header-end {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.644);
-  backdrop-filter: blur(10px);
+  background-color: var(--header-bg-color);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -411,8 +409,7 @@ a {
 .our-services {
   padding-bottom: 235px;
 }
-.container {
-}
+
 .our-services-title {
   margin-top: 0;
   margin-bottom: 80px;

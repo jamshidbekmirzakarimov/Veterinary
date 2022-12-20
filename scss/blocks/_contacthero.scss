@@ -1,0 +1,82 @@
+.contact-hero-section{
+  padding-top: 198px;
+  padding-bottom: 503px;
+  background-image: url(../../images/doctor-dog.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px) calc(50% + 100px);
+  &__start{
+    padding-left: 100px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: $main-text-color;
+    margin-top: 0;
+    margin-bottom: 27px;
+  }
+  
+  &__subtitle{
+    width: 100%;
+    max-width: 447px;
+    margin-top: 0;
+    margin-bottom: 117px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $main-text-subtitle-color;
+  }
+  &__list{
+    display: flex;
+    gap: 123px;
+  }
+  
+}
+
+.contact-hero-section__img{
+  margin-bottom: 26px;
+}
+
+.contact-hero-section__address{
+  width: 100%;
+  max-width: 153px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: $main-text-color;
+}
+
+.start-wrapper__time-box{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.start-wrapper__time{
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-text-color;
+}
+
+.contact-hero-section__linkbox{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.contact-hero-section__tellink{
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: $main-text-color;
+}
+
+
+
+
+
+
+
