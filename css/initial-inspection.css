@@ -259,4 +259,101 @@
 }
 
 /* ****** INSPECTION END **** */
+
+/* ********* HAVE QUESTIONS START ******* */
+.have-questions {
+  margin-bottom: 187px;
+  background-image: url(../images/addesss-bg.svg);
+  background-repeat: no-repeat;
+}
+
+.have-questions-wrapper{
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 65px;
+}
+
+.have-questions-start {
+  margin-left: 112px;
+  margin-right: 61px;
+}
+
+.have-questions-start-title {
+  width: 100%;
+  max-width: 276px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 62px;
+  color: var(--header-bg-color);
+}
+
+.have-questions-start-subtitle {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--header-bg-color);
+  margin: 0;
+}
+.have-questions-end {
+}
+.input-box {
+}
+
+.input-name{
+  width: 335px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  border: none;
+  outline: none;
+  background-color: var(--header-bg-color);
+  margin-bottom: 14px;
+}
+
+.input-email{
+  width: 335px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  border: none;
+  outline: none;
+  background-color: var(--header-bg-color);
+  margin-bottom: 14px;
+}
+
+::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--main-desc-color);
+}
+
+.textarea{
+  width: 335px;
+  margin-bottom: 27px;
+  padding-top: 17px;
+  padding-left: 22px;
+  padding-bottom: 127px;
+  outline: none;
+  border: none;
+}
+
+.textarea::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--main-desc-color);
+}
+
+.have-questions-end-btn{
+  padding: 15px 49px;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--header-bg-color);
+  background: #000000;
+  cursor: pointer;
+}
+/* ********* HAVE QUESTIONS END ******* */
 /********* MAIN END **********/
