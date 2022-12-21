@@ -46,9 +46,13 @@
 
 
 /* ****** INSPECTION START **** */
+.inspection-section{
+  padding-bottom: 174px;
+}
 
 .inspection-section-wrapper{
   display: flex;
+  justify-content: space-between;
 }
 
 .inspection-section-start{
@@ -116,6 +120,142 @@
 
 .panel__item-title-span{
   color: var(--main-active-color);
+}
+
+.panel__item-subtitle{
+  width: 638px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--main-desc-color);
+}
+
+
+
+
+
+.useful-section-list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0;
+}
+
+.useful-section-title {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.useful-section-item-tooth-img{
+  border-radius: 5px 5px 0px 0px;
+  /* border: none; */
+  margin: 0;
+  
+}
+
+.useful-section-item-tooth {
+  border-radius: 5px;
+  overflow: hidden;
+  /* border: 1px solid #E4E4E2; */
+  margin: 0;
+}
+
+.useful-section-item-tooth-box {
+  padding: 21px 22px 35px 30px;
+  border: 1px solid #E4E4E2;
+  border-top: none;
+  overflow: hidden;
+}
+.useful-section-item-tooth-date {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--main-desc-color);
+  text-align: right;
+  
+}
+
+.useful-section-item-tooth-title {
+  width: 100%;
+  max-width: 182px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+.useful-section-item-tooth-subtitle {
+  width: 100%;
+  max-width: 244px;
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--main-desc-color); 
+}
+
+.useful-section-item-middle{
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+}
+
+
+.useful-section-item-middle-box{
+  width: 100%;
+  max-width: 335px;
+  padding: 43px 35px 36px 31px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: var(--header-bg-color);
+}
+
+.useful-section-item-middle-top{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.useful-section-item-middle-top-link{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #3D9CEA;
+}
+
+.useful-section-item-middle-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.useful-section-item-middle-top-link-date{
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--main-desc-color);
+}
+
+.useful-section-item-middle-top-title {
+  width: 100%;
+  max-width: 193px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color: var(--main-text-color);
 }
 
 /* ****** INSPECTION END **** */
